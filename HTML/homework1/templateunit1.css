@@ -1,0 +1,128 @@
+body a,ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+body a {
+    color: black;
+}
+section {
+    height: 750px;
+}
+
+h1 a {
+    cursor: pointer;
+}
+
+h1 a:hover {
+    color: black;
+}
+
+.brand-c {
+    font-size: 40px;
+    font-family: 'Lemonada';
+    color: black;
+}
+
+.brand-c:hover {
+    color: goldenrod;
+}
+
+.leftmobilemenu {
+    float: left;
+    margin-right: 60px;
+    line-height: 35px;
+}
+
+.leftmobilemenu a {
+    color: black;
+}
+
+.leftmobilemenu a:hover {
+    color: goldenrod;
+}
+
+.notification {
+    min-width: 15px;
+    height: 20px;
+    line-height: 19px;
+    position: absolute;
+    font-size: 40px;
+    border: 1 solid red;
+    border-radius: 50%;
+    background-color: red;
+    color: seashell;
+    padding: 5px;
+}
+
+.ml {
+    margin-left: 10px
+}
+
+.text-gold {
+    color: #dcb14a;
+}
+
+.text-gold h6 {
+    font-size: 18px;
+    line-height: 1.41;
+    margin-top: 80px;
+}
+
+.text-darkl {
+    color: black;
+    font-size: 60px;
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-dark {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#heroimg {
+    background: url('chair.jpeg ');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position-x: 400px;
+    background-position-y: -40px;
+    transform:
+}
+
+div.button-box a:hover {
+    background-color: black;
+    color: white;
+    transition: 1s all ease;
+}
+
+.texthover:hover {
+    color: goldenrod;
+}
+
+::placeholder {
+    color: black;
+    padding-left: 10px;
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+.texthovera {
+    color: black;
+}
+
+.texthovera:hover {
+    color: goldenrod;
+}
+.leo:hover {
+    color: goldenrod;
+}
+
+.helphover:hover {
+    color: goldenrod;
+}
+
+
+::placeholder
+
+input [pleacholder]

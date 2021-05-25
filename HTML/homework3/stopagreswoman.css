@@ -1,0 +1,138 @@
+body a {
+    text-decoration: none;
+}
+
+
+.navbgcolor {
+    background: #000;
+}
+
+.textcolor {
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.textcolor:hover {
+    color: goldenrod;
+}
+
+.dropdowncolor {
+    background-color: white !important;
+}
+
+div.bg-photo {
+    height:480px;
+    background: url(../homework3/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2.text-uppercase {
+    color: white;
+    padding: 150px 0 0 80px;
+}
+
+               /* Section CSS*/
+
+.onesection {
+    height: 1200px;
+}
+
+.section-1 {
+    height: 600px;
+}
+
+.section-1 h3 {
+    margin:60px 0 0 30px;
+    color: red;
+}
+.section-1 img  {
+    height: 300px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 1s all ease;
+    
+}
+
+.row {
+    margin-bottom: 100px;
+}
+
+.ptext {
+    text-align: justify;
+}
+
+                /*TWO Section CSS  Carousel*/
+#carouselExampleSlidesOnly {
+    margin-top: 50px;
+}
+
+.twosection h3 {
+    margin: 20px 0 0 30px;
+    color: red;
+}
+
+.carousel-item img {
+    width: 600px;
+    height: 400px;
+}
+
+#carouseltext {
+    margin-top: 110px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Open-sans;
+}
+
+.colimg {
+    width: 300px;
+    height: 400px;
+    border:1px solid black;
+    box-sizing: border-box;
+}
+
+.colimg:hover {
+    opacity: .8;
+    background-color: black;
+
+}
+
+/*National Girls section*/
+
+.national h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.img-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-flex img {
+    width: 400px;
+    height: 500px;
+}
+
+ul {
+    list-style: none;
+}
+
+footer a {
+    color: black;
+}
+
+.leo:hover {
+    color: red;
+}
+
+.helphover:hover {
+    color: red;
+}
+
+.texthovera:hover {
+    color: red;
+}

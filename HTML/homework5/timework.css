@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 750px;
+}
+
+.containerPT {
+    background-image: url(wp2555053.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.timeclock {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-size: 60px;
+    font-family: Pasifico;
+    letter-spacing: 7px;
+   
+}
+
+#times    {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 0;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+::-webkit-input-time {
+    color:red;
+}

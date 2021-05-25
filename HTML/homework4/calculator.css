@@ -1,0 +1,202 @@
+* {
+    list-style: none;
+}
+#container {
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    border: 3px solid black;
+    position: relative;
+    border-radius: 10px;
+    background-color: #B1AFB0;
+}
+
+#container-1 {
+    width: 370px;
+    height: 80px;
+    border: 1px solid black;
+    position: absolute;
+    margin: 60px 10px 0 38px;
+    border-radius: 6px;
+    background-color: #7F9C7E;
+}
+
+input { 
+    width: 365px;
+    height: 78px;
+    border-radius: 6px;
+    position: absolute;
+    margin:0 5px 0 0px;
+    font-size: 40px;
+    color: black;
+    font-family:Electrolize;
+    overflow: hidden;
+}
+
+#headtext {
+    width: 450px;
+    height: 30px;
+    position: absolute;
+}
+
+li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+p {
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+
+td {
+    color:#260B0A;
+    background-color: #260B0A;
+}
+
+#numbercontainer {
+    width: 450px;
+    height: 400px;
+    background-color: #E3E2E0;
+    margin-top: 50px;
+}
+
+#containerbutton {
+    display: flex;
+    position: absolute;
+    margin: 190px 0 0 160px;
+}
+.MC {
+    font-size: 12px;
+    width: 55px;
+    height: 20px;
+    margin-right: 15px;
+    color: black;
+    background-color: white;
+
+}
+
+#containerbuttonfirst {
+    width: 430px;
+    display: flex;
+    position: absolute;
+    margin: 235px 0 0 20px;
+}
+
+.numberone {
+    width: 55px;
+    height: 40px;
+    font-size: 18px;
+    margin-right: 15px;  
+    background-color: #5B5B5B; 
+    color: white;
+}
+
+.off {
+    color: black;
+    background-color: white;
+}
+
+
+
+#containerbuttonsecond {
+    width: 430px;
+    display: flex;
+    position: absolute;
+    margin: 295px 0 0 20px;
+}
+
+.numbertwo {
+    width: 55px;
+    height: 40px;
+    font-size: 17px;
+    margin-right: 15px;  
+    background-color: #5B5B5B;  
+    color: white;
+}
+
+.off-1 {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+}
+
+.off-1-size {
+    font-size: 25px;
+}
+
+.music {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}
+
+#containerbutton-3 {
+    width: 430px;
+    display: flex;
+    position: absolute;
+    margin: 355px 0 0 20px;
+}
+
+.number-3 {
+    width: 55px;
+    height: 40px;
+    font-size: 17px;
+    margin-right: 15px;
+    background-color: #5B5B5B;  
+    color: white;  
+}
+
+.plus {
+    font-size: 40px;
+    height: 100px;
+    color: black;
+    background-color: white;
+}
+
+.minus {
+    font-size: 30px;
+    color: black;
+    background-color: white;
+}
+
+.ce {
+    color: black;
+    background-color: #EE9D39;
+}
+
+#containerbutton-4 {
+    width: 280px;
+    display: flex;
+    position: absolute;
+    margin: 415px 0 0 20px;
+}
+
+.number-4 {
+    width: 55px;
+    height: 40px;
+    font-size: 17px;
+    margin-right: 15px;
+    background-color: #5B5B5B; 
+    color: white;
+}
+ 
+.plus-minus {
+    margin-right: 10px;
+}
+
+.on {
+    color: black;
+    background-color: #EE9D39;
+}
+
+.point {
+    font-size: 20px;
+}
+
+.dollor {
+    position: absolute;
+    margin:415px 0 0 370px;
+    color: white;
+    background-color: #FE0E0C;
+}

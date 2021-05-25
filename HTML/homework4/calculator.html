@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="calculator.css">
+
+    <!--Font Family-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="headtext">
+            <ul>
+                <li>
+                    <p>Electronic Calculator</p>
+                </li>
+                <li>
+                <table border="1" cellspacing="0">
+                    <tr>
+                        <td>111</td>
+                        <td>111</td>
+                        <td>111</td>
+                    </tr>
+                </table>
+                </li>
+        </div>
+        <div id="container-1">
+            <input type="text" class="inputscreen" value="0" disabled>
+        </div>
+        <div id="containerbutton">
+            <button class="MC">MC</button>
+            <button class="MC">MR</button>
+            <button class="MC">M-</button>
+            <button class="MC">M+</button>
+        </div>
+        <div id="containerbuttonfirst">
+            <button value="off" class="numberone off operator"><b>OFF</b></button>
+            <button value="7" class="numberone num"><b>7</b></button>
+            <button value="8" class="numberone num"><b>8</b></button>
+            <button value="9" class="numberone num"><b>9</b></button>
+            <button value="%" class="numberone off operator"><b>%</b></button>
+            <button class="numberone off operator"><b>√¯</b></button>
+        </div>
+        <div id="containerbuttonsecond">
+            <button class="numbertwo music operator"> <b>♪</b></button>
+            <button value="4" class="numbertwo num"><b>4</b></button>
+            <button value="5" class="numbertwo num"><b>5</b></button>
+            <button value="6" class="numbertwo num"><b>6</b></button>
+            <button value="*" class="numbertwo off-1 operator"><b>*</b></button>
+            <button value="/" class="numbertwo off-1 off-1-size operator"><b>/</b></button>
+        </div>
+        <div id="containerbutton-3">
+            <button value="ce" class="number-3 ce delete"><b>CE</b></button>
+            <button value="1" class="number-3 num"><b>1</b></button>
+            <button value="2" class="number-3 num"><b>2</b></button>
+            <button value="3" class="number-3 num"><b>3</b></button>
+            <button value="+" class="number-3 plus operator">+</button>
+            <button value="-" class="number-3 minus operator">-</button>
+        </div>
+        <div id="containerbutton-4">
+            <button value="" class="number-4 on"><b>ON</b></button>
+            <button value="on" class="number-4 num"><b>0</b></button>
+            <button value="." class="number-4 point num"><b>.</b></button>
+            <button value="+/-" class="number-4 plus-minus operator"><b>+/-</b></button>
+            </div>
+
+            <div>
+            <button value="=" class="number-4 dollor equal "><b>=</b></button>
+            </div>
+    </div>
+
+
+
+
+    <!--JS Link-->
+    <script src="calculator.js"></script>
+</body>
+
+</html>
